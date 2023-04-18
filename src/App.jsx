@@ -29,7 +29,7 @@ function App() {
         <div className='w-[200px] mx-auto pt-7'>
           <img src="/img/rm-logo.png" alt="" />
         </div>
-        <h1 className='text-center text-white mt-4'>Wellcome to Our Universe!</h1>
+        <h1 className='text-center text-white mt-4'>Search for a location!</h1>
         <Search onSearch={handleSearch} />
         <Location location={location} />
         <ResidentsList location={location} />

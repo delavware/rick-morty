@@ -34,7 +34,7 @@ useEffect(()=> {
           </div>
           <section className='mt-2'>
               <h2 className='text-lg text-[rgb(181,53,246)] font-bold'>{res?.name}</h2>
-              <ul className='text-white'>
+              <ul className='text-white text-sm'>
                 <li><span>Species: </span><span>{res?.species}</span></li>
                 <li><span>Origin: </span><span>{res?.origin.name}</span></li>
                 <li><span>On-screen appearances: </span><span>{res?.episode.length}</span></li>
